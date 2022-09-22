@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Dancing+Script&family=Lobster&family=Montserrat:wght@200&family=Oswald:wght@300&family=Pacifico&family=Roboto+Mono:wght@100&family=Roboto:wght@100&display=swap');
+
+/* font-family: 'BIZ UDPMincho', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+body{
+    background-color: rgba(4, 4, 31, 0.79);
+}
+
+h1{
+    text-align: center;
+    color: rgb(113, 253, 253);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 30%;
+    margin: auto;
+    color: rgb(113, 253, 253);
+}
+
+input, label{
+    display: block;
+}
+
+input{
+    margin-top: 00.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+
+}
+
+#btn{
+    display: block; 
+    margin: 15px auto;
+    padding: 0.5rem 0.5rem;
+    border: 4px solid rgb(89, 255, 213);
+    border-radius: 1rem;
+}
+
+#btn:hover{
+    background-color: aquamarine;
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    cursor: pointer;
+}
