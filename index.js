@@ -18,8 +18,7 @@ function cmpvalue(sum , luckyNumber)
 function checklucky(){
     const date1 = Dob.value;
     const sum = calsum(date1);
-
-    if(sum&&date1){
+    if(Dob.value === 0 || Ln.value === 0){
         if(Number(Ln.value) < 0){
             OB.style.color = "red";
             OB.innerText = "Lucky number should be positive";
