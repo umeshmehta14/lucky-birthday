@@ -18,17 +18,17 @@ function cmpvalue(sum , luckyNumber)
 function checklucky(){
     const date1 = Dob.value;
     const sum = calsum(date1);
-    if(Dob.value === 0 || Ln.value === 0){
+
+    if(sum === 0 || Number(Ln.value) === 0){
+        OB.innerText = "please enter both the fields🥸";
+    }
+    else{
         if(Number(Ln.value) < 0){
-            OB.style.color = "red";
             OB.innerText = "Lucky number should be positive";
         }
         else{
             cmpvalue(sum,Ln.value);
         }
-    }
-    else{
-        OB.innerText = "please enter both the fields🥸";
     }
 }
 
